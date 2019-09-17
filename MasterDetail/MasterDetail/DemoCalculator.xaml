@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ 
+             xmlns:local="clr-namespace:Calculator" 
+             x:Class="MasterDetail.DemoCalculator"
+             Title="Demo Calculator">
+
+   <ContentPage.Resources>
+        <ResourceDictionary>
+            
+            <Style x:Key ="infostyle" TargetType="Button">
+                <Setter Property="WidthRequest" Value="60"/>
+                
+                <Setter Property="BorderRadius" Value="0"/>
+                <Setter Property="TextColor" Value="White"/>
+                
+            </Style>     
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <Grid  RowSpacing="2" ColumnSpacing="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+   
+   
+    <Label x:Name="resultText" FontSize="40" FontAttributes="Bold" BackgroundColor="Gray"
+           TextColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="End"
+           LineBreakMode="NoWrap" Grid.ColumnSpan="4" />
+    
+    <Button Text="AC" Grid.Row="1" Grid.Column="0" BackgroundColor="Red" Clicked="Onclear" Style="{StaticResource infostyle}" FontSize="35" />
+    <Button Text="+/-" Grid.Row="1" Grid.Column="1" BackgroundColor="Gray" Clicked="OnChange" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="%" Grid.Row="1" Grid.Column="2" BackgroundColor="Gray" Clicked="OnPercentage" Style="{StaticResource infostyle}" FontSize="35"/>
+
+    <Button Text="/" x:Name="Division" Grid.Row="1" Grid.Column="3" BackgroundColor="Gray" Clicked="OnSelectOperator" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="X" x:Name="Multiplication" Grid.Row="2" Grid.Column="3" BackgroundColor="Gray" Clicked="OnSelectOperator" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="-" x:Name="Subtraction" Grid.Row="3" Grid.Column="3" BackgroundColor="Gray" Clicked="OnSelectOperator" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="+" x:Name="Addition" Grid.Row="4" Grid.Column="3" BackgroundColor="Gray" Clicked="OnSelectOperator" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="=" Grid.Row="5" Grid.Column="3" BackgroundColor="Gray" Clicked="OnCalculate" Style="{StaticResource infostyle}" FontSize="35"/>
+
+    <Button Text="7" TextColor="Black" Grid.Row="2" Grid.Column="0" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="8" TextColor="Black" Grid.Row="2" Grid.Column="1" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="9" TextColor="Black" Grid.Row="2" Grid.Column="2" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="4" TextColor="Black" Grid.Row="3" Grid.Column="0" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="5" TextColor="Black" Grid.Row="3" Grid.Column="1" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="6" TextColor="Black" Grid.Row="3" Grid.Column="2" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="1" TextColor="Black" Grid.Row="4" Grid.Column="0" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="2" TextColor="Black" Grid.Row="4" Grid.Column="1" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="3" TextColor="Black" Grid.Row="4" Grid.Column="2" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+    <Button Text="0" TextColor="Black" Grid.Row="5" Grid.Column="0" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" Grid.ColumnSpan="2" FontSize="35"/>
+    <Button Text="." TextColor="Black" Grid.Row="5" Grid.Column="2" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infostyle}" FontSize="35"/>
+            
+      
+    </Grid>    
+</ContentPage>

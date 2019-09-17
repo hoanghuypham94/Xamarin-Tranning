@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MasterDetail.DemoStackLayout"
+    Title="Demo StackLayout">
+    <ContentPage.Content>
+    
+        <StackLayout Spacing="10" x:Name="layout">
+            <Button Text="7" TextColor="Black" Grid.Row="2" Grid.Column="0" BackgroundColor="Red"  Style="{StaticResource infostyle}" FontSize="35"/>
+            <Button Text="8" TextColor="Black" Grid.Row="2" Grid.Column="1" BackgroundColor="Blue"  Style="{StaticResource infostyle}" FontSize="35"/>
+            <Button Text="9" TextColor="Black" Grid.Row="2" Grid.Column="2" BackgroundColor="Green"  Style="{StaticResource infostyle}" FontSize="35"/>
+            <Button Text="4" TextColor="Black" Grid.Row="3" Grid.Column="0" BackgroundColor="Silver"  Style="{StaticResource infostyle}" FontSize="35"/>
+            <Button Text="5" TextColor="Black" Grid.Row="3" Grid.Column="1" BackgroundColor="Orange"  Style="{StaticResource infostyle}" FontSize="35"/>
+            <Button Text="6" TextColor="Black" Grid.Row="3" Grid.Column="2" BackgroundColor="Silver"  Style="{StaticResource infostyle}" FontSize="35"/>
+            
+        </StackLayout>
+
+    
+    </ContentPage.Content>
+</ContentPage>
