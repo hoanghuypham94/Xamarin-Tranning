@@ -5,5 +5,9 @@
              Title="Demo Grid">
   <StackLayout Padding="10">
     <Label Text="Xamarin Tranning - Tuan 01"/>
+    <Button Text="Next Page"
+            Clicked="Button_NextPage" />
+
   </StackLayout>
+
 </ContentPage>

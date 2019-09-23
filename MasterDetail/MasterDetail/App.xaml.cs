@@ -10,7 +10,12 @@ namespace MasterDetail
         {
             InitializeComponent();
 
+          
+
             MainPage = new MyMasterDetailPage();
+            
+            
+           
         }
 
         protected override void OnStart()

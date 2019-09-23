@@ -1,4 +1,4 @@
-	/* Data SHA1: a0be4ff1c522540e9864b8f19993cbfd06eea84a */
+	/* Data SHA1: b40076ff92a937066674bb11a5e107a33d6acf9c */
 	.arch	armv7-a
 	.syntax unified
 	.eabi_attribute 67, "2.09"	@ Tag_conformance
@@ -31,7 +31,7 @@ mj_typemap_header:
 	/* version */
 	.long	1
 	/* entry-count */
-	.long	1490
+	.long	1491
 	/* entry-length */
 	.long	262
 	/* value-offset */
@@ -42,5 +42,5 @@ mj_typemap_header:
 	.type	mj_typemap, %object
 	.global	mj_typemap
 mj_typemap:
-	.size	mj_typemap, 390381
+	.size	mj_typemap, 390643
 	.include	"typemap.mj.inc"

@@ -47,10 +47,23 @@ namespace MasterDetail
                     Detail = new NavigationPage(new DemoAbsoluteLayout());
                     IsPresented = false;
                     break;
+                case 6:
+                    Detail = new NavigationPage(new MyTabbedPage());
+                    IsPresented = false;
+                    break;
+                case 7:
+                    Detail = new NavigationPage(new MyMasterDetailPageDetail());
+                    IsPresented = false;
+                    break;
+                case 8:
+                    Detail = new NavigationPage(new DemoBehavior());
+                    IsPresented = false;
+                    break;
+
 
             }
-            
 
+            
             MasterPage.ListView.SelectedItem = null;
         }
     }

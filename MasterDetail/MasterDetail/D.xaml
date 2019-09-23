@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MasterDetail.D"
+    Title="Demo Navigation Page">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand">
+            <Button Text="Add page before"
+                    Clicked="ButtonAddbefore_Clicked" />
+            <Button Text="Remove page"
+                    Clicked="ButtonRemove_Clicked" TextColor="Red"/>
+            <Button Text="Next"
+                    Clicked="ButtonNext_Clicked" TextColor="Black"/>
+           
+            <Label x:Name="lblName"
+                   Text="{Binding Name}"
+                   HorizontalOptions="Center"/>
+            <Label x:Name="lblNumber"
+                   Text="{Binding Number}"
+                   HorizontalOptions="Center"/>
+
+
+        </StackLayout>
+</ContentPage.Content>
+
+    
+</ContentPage>

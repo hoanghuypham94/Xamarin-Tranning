@@ -130,4 +130,7 @@
       <Name>MasterDetail</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\next.png" />
+  </ItemGroup>
 </Project>

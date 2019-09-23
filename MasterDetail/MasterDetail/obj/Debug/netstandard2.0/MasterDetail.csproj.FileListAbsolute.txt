@@ -18,3 +18,11 @@
 /Users/hoanghuy/Projects/MasterDetail/MasterDetail/obj/Debug/netstandard2.0/DemoCalculator.xaml.g.cs
 /Users/hoanghuy/Projects/MasterDetail/MasterDetail/obj/Debug/netstandard2.0/DemoScrollview.xaml.g.cs
 /Users/hoanghuy/Projects/MasterDetail/MasterDetail/obj/Debug/netstandard2.0/Demostackayout.xaml.g.cs
+/Users/hoanghuy/Projects/MasterDetail/MasterDetail/obj/Debug/netstandard2.0/DemoAbsoluteLayout.xaml.g.cs
+/Users/hoanghuy/Projects/MasterDetail/MasterDetail/obj/Debug/netstandard2.0/MyPage001.xaml.g.cs
+/Users/hoanghuy/Projects/MasterDetail/MasterDetail/obj/Debug/netstandard2.0/MyTabbedPage.xaml.g.cs
+/Users/hoanghuy/Projects/MasterDetail/MasterDetail/obj/Debug/netstandard2.0/D.xaml.g.cs
+/Users/hoanghuy/Projects/MasterDetail/MasterDetail/bin/Debug/netstandard2.0/Xamarin.iOS.dll
+/Users/hoanghuy/Projects/MasterDetail/MasterDetail/bin/Debug/netstandard2.0/Xamarin.iOS.pdb
+/Users/hoanghuy/Projects/MasterDetail/MasterDetail/obj/Debug/netstandard2.0/DemoBehavior.xaml.g.cs
+/Users/hoanghuy/Projects/MasterDetail/MasterDetail/obj/Debug/netstandard2.0/MasterDetail.csproj.CopyComplete

@@ -1,43 +1,31 @@
 ﻿<Properties StartupConfiguration="{B5EBB54F-3642-4A88-B277-F1F4A13A77FF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetail/MyMasterDetailPageDetail.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetail/TextChangedBehavior.cs">
     <Files>
-      <File FileName="MasterDetail/MainPage.xaml.cs" Line="22" Column="1" />
-      <File FileName="MasterDetail/MainPage.xaml" />
-      <File FileName="MasterDetail/MyMasterDetailPage.xaml" />
-      <File FileName="MasterDetail/MyMasterDetailPage.xaml.cs" Line="49" Column="27" />
-      <File FileName="MasterDetail/MyMasterDetailPageDetail.xaml" Line="7" Column="47" />
-      <File FileName="MasterDetail/MyMasterDetailPageDetail.xaml.cs" />
+      <File FileName="MasterDetail/MyMasterDetailPage.xaml.cs" Line="61" Column="27" />
+      <File FileName="MasterDetail/MyMasterDetailPageDetail.xaml" />
+      <File FileName="MasterDetail/DemoBehavior.xaml" Line="45" Column="35" />
       <File FileName="MasterDetail/MyMasterDetailPageMaster.xaml.cs" />
-      <File FileName="MasterDetail/MyMasterDetailPageMenuItem.cs" />
-      <File FileName="MasterDetail/App.xaml" />
-      <File FileName="MasterDetail/App.xaml.cs" />
-      <File FileName="MasterDetail/MyMasterDetailPageMaster.xaml" />
-      <File FileName="MasterDetail/Demostackayout.xaml" />
-      <File FileName="MasterDetail/Demostackayout.xaml.cs" />
-      <File FileName="MasterDetail/DemoGrid.xaml" />
-      <File FileName="MasterDetail/DemoScrollview.xaml" />
+      <File FileName="MasterDetail/DemoBehavior.xaml.cs" Line="1" Column="1" />
+      <File FileName="MasterDetail/TextChangedBehavior.cs" Line="1" Column="1" />
+      <File FileName="MasterDetail/DemoCalculator.xaml" />
+      <File FileName="MasterDetail/DemoCalculator.xaml.cs" />
+      <File FileName="MasterDetail/MyMasterDetailPageDetail.xaml.cs" />
+      <File FileName="MasterDetail.iOS/Main.cs" />
       <File FileName="MasterDetail/DemoAbsoluteLayout.xaml" />
-      <File FileName="MasterDetail/DemoAbsoluteLayout.xaml.cs" />
-      <File FileName="MasterDetail/MyPage001.xaml" />
-      <File FileName="MasterDetail/MyPage001.xaml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MasterDetail" expanded="True">
             <Node name="MasterDetail" expanded="True">
-              <Node name="App.xaml" expanded="True" />
-              <Node name="DemoAbsoluteLayout.xaml" expanded="True" />
+              <Node name="D.xaml" expanded="True" />
+              <Node name="DemoBehavior.xaml" expanded="True" />
               <Node name="DemoCalculator.xaml" expanded="True" />
-              <Node name="DemoGrid.xaml" expanded="True" />
-              <Node name="DemoScrollview.xaml" expanded="True" />
-              <Node name="Demostackayout.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="MyMasterDetailPage.xaml" expanded="True" />
-              <Node name="MyMasterDetailPageDetail.xaml" expanded="True" selected="True" />
-              <Node name="MyMasterDetailPageMaster.xaml" expanded="True" />
-              <Node name="MyPage.xaml" expanded="True" />
-              <Node name="MyPage001.xaml" expanded="True" />
+              <Node name="MyMasterDetailPageDetail.xaml" expanded="True" />
+              <Node name="TextChangedBehavior.cs" selected="True" />
+            </Node>
+            <Node name="MasterDetail.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -50,7 +38,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MasterDetail.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3942F15A-3BF5-4776-8EE7-3C8B9BA624A8" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.MasterDetail.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.MasterDetail.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.192.168.56.102:5555" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

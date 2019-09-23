@@ -23,6 +23,7 @@ namespace MasterDetail
 
             BindingContext = new MyMasterDetailPageMasterViewModel();
             ListView = MenuItemsListView;
+            
         }
 
         class MyMasterDetailPageMasterViewModel : INotifyPropertyChanged
@@ -39,6 +40,9 @@ namespace MasterDetail
                     new MyMasterDetailPageMenuItem { Id = 3, Title = "StackLayout" },
                     new MyMasterDetailPageMenuItem { Id = 4, Title = "AbsoluteLayout" },
                     new MyMasterDetailPageMenuItem { Id = 5, Title = "RelativeLayout" },
+                    new MyMasterDetailPageMenuItem { Id = 6, Title = "Tabbed Page" },
+                    new MyMasterDetailPageMenuItem { Id = 7, Title = "Navigation Page" },
+                    new MyMasterDetailPageMenuItem { Id = 8, Title = "Behavior"},
                 });
             }
 

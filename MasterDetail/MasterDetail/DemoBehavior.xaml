@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MasterDetail"
+    x:Class="MasterDetail.DemoBehavior"
+    Title="Demo Behavior">
+    <NavigationPage.TitleView>
+        <Image     Source="next.png"
+                   WidthRequest="15"
+                   HeightRequest="15"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="End" >
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="NextPage_Behavior" />
+            </Image.GestureRecognizers>
+        </Image>
+
+    </NavigationPage.TitleView>
+    <Grid ColumnSpacing="0" RowSpacing="0">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Text="Please enter Numbers!" FontSize="Medium"
+               HorizontalOptions="Center" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="4"/>
+        <Entry Placeholder="Only number and max 10" FontSize="Large"
+               HorizontalOptions="Center" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="4">
+            <Entry.Behaviors>
+                <local:TextChangedBehavior />
+            </Entry.Behaviors>
+        </Entry>
+
+        
+
+    </Grid>
+    
+</ContentPage>
