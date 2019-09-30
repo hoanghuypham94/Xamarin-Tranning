@@ -1,0 +1,12 @@
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/bin/Debug/netstandard2.0/DemoCustomRender.deps.json
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/bin/Debug/netstandard2.0/DemoCustomRender.dll
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/bin/Debug/netstandard2.0/DemoCustomRender.pdb
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/obj/Debug/netstandard2.0/RadioButtonCustomRenderer.xaml.g.cs
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/obj/Debug/netstandard2.0/DemoCustomRender.AssemblyInfoInputs.cache
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/obj/Debug/netstandard2.0/DemoCustomRender.AssemblyInfo.cs
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/obj/Debug/netstandard2.0/DemoCustomRender.dll
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/obj/Debug/netstandard2.0/DemoCustomRender.pdb
+/Users/hoanghuy/Projects/DemoCustomRender/DemoCustomRender/obj/Debug/netstandard2.0/DemoCustomRender.csprojAssemblyReference.cache

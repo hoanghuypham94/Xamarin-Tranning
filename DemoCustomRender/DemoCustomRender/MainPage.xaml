@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            
+             xmlns:local="clr-namespace:DemoCustomRender"
+             xmlns:effects="clr-namespace:DemoCustomRender.Effects"
+             mc:Ignorable="d"
+             
+             x:Class="DemoCustomRender.MainPage"
+             Title="Demo Custom Render">
+  <Grid RowSpacing="2" ColumnSpacing="2" >
+
+      <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <StackLayout  Grid.Row="2" Grid.Column="1"  Grid.ColumnSpan="4">
+         
+          <Frame IsVisible="true" HasShadow="True" BackgroundColor="AntiqueWhite" >
+              <StackLayout>
+                      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                          <StackLayout.GestureRecognizers>
+                              <TapGestureRecognizer Tapped="OnButtonTapped" NumberOfTapsRequired="1"/>
+                          </StackLayout.GestureRecognizers>
+                              <Image Source="uncheck1.png" HeightRequest="25" x:Name="foto" />
+                              <local:BorderCustomRenderEntry x:Name="label" Placeholder="Insert                          "/>
+                      </StackLayout>
+
+                      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                          <StackLayout.GestureRecognizers>
+                              <TapGestureRecognizer Tapped="OnButtonTapped1" NumberOfTapsRequired="1"/>
+                          </StackLayout.GestureRecognizers>
+                              <Image Source="uncheck1.png" HeightRequest="25" x:Name="foto1"/>
+                          <local:BorderCustomRenderEntry x:Name="label1" Placeholder="Insert                          "/>
+                      </StackLayout>
+
+                      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                          <StackLayout.GestureRecognizers>
+                              <TapGestureRecognizer Tapped="OnButtonTapped2" NumberOfTapsRequired="1"/>
+                          </StackLayout.GestureRecognizers>
+                          <Image Source="uncheck1.png" HeightRequest="25" x:Name="foto2"/>
+                          <local:BorderCustomRenderEntry Text="Viet Nam" x:Name="label2" Placeholder="Insert                          "/>
+                  </StackLayout>
+              </StackLayout>
+          </Frame>
+      
+              
+          </StackLayout >
+      <Button x:Name="textradiobtn" Grid.Column="2" Grid.ColumnSpan="2"
+              Grid.Row="4" Text="Choose" Clicked="CheckedChanged"
+              TextColor="Red"
+              BackgroundColor="Transparent"
+              BorderColor="Transparent"
+              BorderWidth="1"
+              BorderRadius="20">
+          <Button.Effects>
+              <effects:ButtonBorderEffect/>
+          </Button.Effects>
+      </Button>
+
+      
+  </Grid>
+
+
+</ContentPage>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:DemoCustomRender"
+    x:Class="DemoCustomRender.RadioButtonCustomRenderer">
+  <Grid RowSpacing="2" ColumnSpacing="2">
+      <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <StackLayout  Grid.Row="2" Grid.Column="1"  Grid.ColumnSpan="2">
+          <Frame HasShadow="True" BackgroundColor="AntiqueWhite" >
+              <StackLayout>
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                      <StackLayout.GestureRecognizers>
+                          <TapGestureRecognizer Tapped="OnButtonTapped" NumberOfTapsRequired="1"/>
+
+                      </StackLayout.GestureRecognizers>
+                      <Image Source="Uncheck.png" HeightRequest="25" x:Name="foto" />
+                      <Label x:Name="label" Text="Check 01"/>
+                  </StackLayout>
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                      <StackLayout.GestureRecognizers>
+                          <TapGestureRecognizer Tapped="OnButtonTapped1" NumberOfTapsRequired="1"/>
+                      </StackLayout.GestureRecognizers>
+                      <Image Source="uncheck.png" HeightRequest="25" x:Name="foto1"/>
+                      <Label x:Name="label1" Text="Check 02"/>
+                  </StackLayout>
+              </StackLayout>
+          </Frame>
+          <Button Text="Choose" x:Name="textradiobtn" Clicked="Antworti_Clicked"/>
+      </StackLayout>
+      
+
+  </Grid>
+</ContentPage>

@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{BB99F8F1-ABAE-4D50-A7D2-4C8D4FD5FAEF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoCustomRender.iOS/ButtonEffectIOS.cs">
+    <Files>
+      <File FileName="DemoCustomRender/Commands.cs" Line="33" Column="1" />
+      <File FileName="DemoCustomRender/BorderView.cs" />
+      <File FileName="DemoCustomRender/MainPage.xaml" Line="70" Column="11" />
+      <File FileName="DemoCustomRender.Android/ButtonEffectAndroid.cs" Line="44" Column="6" />
+      <File FileName="DemoCustomRender/MainPage.xaml.cs" />
+      <File FileName="DemoCustomRender/Effects/ButtonEffect.cs" Line="1" Column="1" />
+      <File FileName="DemoCustomRender/Effects/ButtonBorderEffect.cs" Line="6" Column="36" />
+      <File FileName="DemoCustomRender.Android/BorderEntryRendererAndroid.cs" Line="1" Column="1" />
+      <File FileName="DemoCustomRender.iOS/ButtonEffectIOS.cs" Line="14" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DemoCustomRender" expanded="True">
+            <Node name="DemoCustomRender" expanded="True">
+              <Node name="Effects" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="RadioButtonCustomRenderer.xaml" expanded="True" />
+            </Node>
+            <Node name="DemoCustomRender.Android" expanded="True" />
+            <Node name="DemoCustomRender.iOS" expanded="True">
+              <Node name="ButtonEffectIOS.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DemoCustomRender.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.10A13056-AB43-4462-AFC0-FBFB33356FB6" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DemoCustomRender.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.192.168.56.105:5555" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
